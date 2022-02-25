@@ -1,5 +1,5 @@
 const express = require("express")
-const cors = require("cors");
+//const cors = require("cors");
 
 const app = express()
 
@@ -7,7 +7,7 @@ app.get("/",function(req,res){
     res.send("Welcome to home"); 
 })
 
-app.use(cors());
+//app.use(cors());
 
 
 app.get("/testRoute",function(req,res){
